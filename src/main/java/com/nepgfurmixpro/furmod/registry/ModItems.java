@@ -1,12 +1,13 @@
 package com.nepgfurmixpro.furmod.registry;
 
 import com.nepgfurmixpro.furmod.Furmod;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 public class ModItems {
 
@@ -20,7 +21,10 @@ public class ModItems {
     public static final Item WARM_PACK = new Item(new Item.Settings().group(ItemGroup.MISC));
     public static final Item HEAT_PACK = new Item(new Item.Settings().group(ItemGroup.MISC));
 
+
     public static void registerItems() {
+        System.out.println("Registering Items");
+
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "white_fur"), WHITE_FUR);
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "white_fur_block"), WHITE_FUR_BLOCK);
 
@@ -30,5 +34,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "cold_pack"), COLD_PACK);
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "warm_pack"), WARM_PACK);
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "heat_pack"), HEAT_PACK);
+
+        System.out.println("Registered Items");
+
     }
 }
