@@ -1,5 +1,6 @@
 package com.nepgfurmixpro.furmod;
 
+import com.nepgfurmixpro.furmod.registry.ModBlocks;
 import com.nepgfurmixpro.furmod.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -9,8 +10,11 @@ public class Furmod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerItems();
-
 		System.out.println("Initializing Furmod");
+
+		ModItems.registerItems();
+		ModBlocks.registerBlocks();
+
+		System.out.println("Initialized Furmod");
 	}
 }
