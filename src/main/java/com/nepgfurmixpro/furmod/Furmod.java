@@ -21,6 +21,11 @@ public class Furmod implements ModInitializer {
 				stacks.add(new ItemStack(ModItems.COLD_PACK));
 				stacks.add(new ItemStack(ModItems.WARM_PACK));
 				stacks.add(new ItemStack(ModItems.HEAT_PACK));
+		stacks.add(new ItemStack(ModItems.CINNABAR));
+		stacks.add(new ItemStack(ModItems.CINNABAR_ORE));
+		stacks.add(new ItemStack(ModItems.MERCURY));
+		stacks.add(new ItemStack(ModItems.MERCURY_BOTTLE));
+		stacks.add(new ItemStack(ModItems.FURMOD_STATS));
 			}).build();
 
 	@Override
