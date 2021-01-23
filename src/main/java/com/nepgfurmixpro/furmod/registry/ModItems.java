@@ -17,6 +17,12 @@ public class ModItems {
     public static final Item WARM_PACK = new Item(new Item.Settings().group(ItemGroup.MISC));
     public static final Item HEAT_PACK = new Item(new Item.Settings().group(ItemGroup.MISC));
 
+    public static final Item CINNARBAR = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final BlockItem CINNABAR_ORE = new BlockItem(ModBlocks.CINNABAR_ORE, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item MERCURY = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item MERCURY_BOTTLE = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item FURMOD_STATS = new Item(new Item.Settings().group(ItemGroup.MISC));
+
 
     public static void registerItems() {
         System.out.println("Registering Items");
@@ -30,6 +36,12 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "cold_pack"), COLD_PACK);
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "warm_pack"), WARM_PACK);
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "heat_pack"), HEAT_PACK);
+
+        Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "cinnabar"), CINNARBAR);
+        Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "cinnabar_ore"), CINNABAR_ORE);
+        Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "mercury"), MERCURY);
+        Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "mercury_bottle"), MERCURY_BOTTLE);
+        Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "furmod_stats"), FURMOD_STATS);
 
         System.out.println("Registered Items");
 

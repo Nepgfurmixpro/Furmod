@@ -24,11 +24,18 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.WOOL)
             .strength(0.8f,	0.8f));
 
+    public static final Block CINNABAR_ORE = new Block(FabricBlockSettings
+            .of(Material.STONE)
+            .breakByTool(FabricToolTags.SHEARS)
+            .sounds(BlockSoundGroup.STONE)
+            .strength(1.2f, 1.2f));
+
     public static void registerBlocks() {
         System.out.println("Registering blocks");
 
         Registry.register(Registry.BLOCK, new Identifier(Furmod.MOD_ID, "white_fur_block"), WHITE_FUR_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Furmod.MOD_ID, "lime_fur_block"), LIME_FUR_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Furmod.MOD_ID, "cinnabar_ore"), CINNABAR_ORE);
 
         System.out.println("Registered blocks");
     }
