@@ -1,5 +1,7 @@
 {
   "item.furmod.white_fur": "White Fur",
   "block.furmod.white_fur_block": "White Fur Block",
+  "item.furmod.lime_fur": "Lime Fur",
+  "item.furmod.lime_fur_block": "Lime Fur Block",
   "itemGroup.furmod.furmod_tab": "Furmod"
 }
