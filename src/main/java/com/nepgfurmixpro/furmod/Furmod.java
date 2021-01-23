@@ -3,10 +3,19 @@ package com.nepgfurmixpro.furmod;
 import com.nepgfurmixpro.furmod.registry.ModBlocks;
 import com.nepgfurmixpro.furmod.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.Identifier;
 
 public class Furmod implements ModInitializer {
 
 	public static final String MOD_ID = "furmod";
+
+	public static final ItemGroup FURMOD_TAB = FabricItemGroupBuilder.build(
+			new Identifier(MOD_ID, "furmod_tab"),
+			() -> new ItemStack(ModItems.WHITE_FUR)
+	);
 
 	@Override
 	public void onInitialize() {

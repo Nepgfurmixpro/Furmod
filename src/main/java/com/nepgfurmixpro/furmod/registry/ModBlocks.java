@@ -16,8 +16,7 @@ public class ModBlocks {
             .of(Material.WOOL)
             .breakByTool(FabricToolTags.SHEARS)
             .sounds(BlockSoundGroup.WOOL)
-            .strength(0.8f,	0.8f)
-            .breakByHand(true));
+            .strength(0.8f,	0.8f));
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(Furmod.MOD_ID, "white_fur_block"), WHITE_FUR_BLOCK);
