@@ -11,7 +11,13 @@ Hello, this is the Furmod. This adds stuff like body warmth, fur clothes, and ot
 To compile the mod go to the main directory and do
 # Windows:
 ## Intellij IDEA:
-gradlew genIntellijRuns
+gradlew genSources
+## Eclipse IDE:
+gradlew genSources
+gradlew eclipse
 # Linux/MacOS
 ## Intellij IDEA:
-./gradlew genIntellijRuns
+./gradlew genSources
+## Eclipse IDE:
+./gradlew genSources
+./gradlew eclipse
