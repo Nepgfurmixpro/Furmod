@@ -15,7 +15,9 @@ public class Furmod implements ModInitializer {
 	public static final ItemGroup FURMOD_TAB = FabricItemGroupBuilder.create(
 			new Identifier(MOD_ID, "furmod_tab")).icon(() -> new ItemStack(ModItems.WHITE_FUR)).appendItems(stacks -> {
 				stacks.add(new ItemStack(ModItems.WHITE_FUR));
+				stacks.add(new ItemStack(ModItems.LIME_FUR));
 				stacks.add(new ItemStack(ModItems.WHITE_FUR_BLOCK));
+				stacks.add(new ItemStack(ModItems.LIME_FUR_BLOCK));
 	}).build();
 
 	@Override

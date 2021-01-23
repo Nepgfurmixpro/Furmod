@@ -18,7 +18,14 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.WOOL)
             .strength(0.8f,	0.8f));
 
+    public static final Block LIME_FUR_BLOCK = new Block(FabricBlockSettings
+            .of(Material.WOOL)
+            .breakByTool(FabricToolTags.SHEARS)
+            .sounds(BlockSoundGroup.WOOL)
+            .strength(0.8f,	0.8f));
+
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(Furmod.MOD_ID, "white_fur_block"), WHITE_FUR_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Furmod.MOD_ID, "lime_fur_block"), LIME_FUR_BLOCK);
     }
 }
