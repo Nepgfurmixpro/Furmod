@@ -2,6 +2,7 @@ package com.nepgfurmixpro.furmod;
 
 import com.nepgfurmixpro.furmod.registry.ModBlocks;
 import com.nepgfurmixpro.furmod.registry.ModItems;
+import com.nepgfurmixpro.furmod.registry.OreGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -35,6 +36,7 @@ public class Furmod implements ModInitializer {
 
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
+		OreGeneration.registerOreGen();
 
 		System.out.println("Initialized Furmod");
 	}
