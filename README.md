@@ -5,4 +5,4 @@ Developers:
 
 **Nepgfurmixpro**
 
-Hello, this is the Furmod. This adds stuff like body warmth, fur clothes, and other stuff to the game to make cold biomes more interesting!
+Hello, this is the Furmod. This adds stuff like body warmth, fur clothes, and other stuff to the game to make cold and hot biomes more interesting!
