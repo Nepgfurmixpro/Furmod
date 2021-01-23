@@ -10,8 +10,8 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item WHITE_FUR = new Item(new Item.Settings().group(Furmod.FURMOD_TAB));
-    public static final BlockItem WHITE_FUR_BLOCK = new BlockItem(ModBlocks.WHITE_FUR_BLOCK, new Item.Settings().group(Furmod.FURMOD_TAB));
+    public static final Item WHITE_FUR = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final BlockItem WHITE_FUR_BLOCK = new BlockItem(ModBlocks.WHITE_FUR_BLOCK, new Item.Settings().group(ItemGroup.MATERIALS));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "white_fur"), WHITE_FUR);

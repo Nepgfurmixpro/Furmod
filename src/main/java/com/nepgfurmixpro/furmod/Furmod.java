@@ -12,10 +12,11 @@ public class Furmod implements ModInitializer {
 
 	public static final String MOD_ID = "furmod";
 
-	public static final ItemGroup FURMOD_TAB = FabricItemGroupBuilder.build(
-			new Identifier(MOD_ID, "furmod_tab"),
-			() -> new ItemStack(ModItems.WHITE_FUR)
-	);
+	public static final ItemGroup FURMOD_TAB = FabricItemGroupBuilder.create(
+			new Identifier(MOD_ID, "furmod_tab")).icon(() -> new ItemStack(ModItems.WHITE_FUR)).appendItems(stacks -> {
+				stacks.add(new ItemStack(ModItems.WHITE_FUR));
+				stacks.add(new ItemStack(ModItems.WHITE_FUR_BLOCK));
+	}).build();
 
 	@Override
 	public void onInitialize() {
