@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 // Developers:
 //   Nepgfurimxpro
 //
-// Project Started by: Nepgfurimxpro
+// Project Started by: Nepgfurmixpro
 //
 // Furmod. The mod that adds a decent amount of realism to hot and cold biomes.
 
