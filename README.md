@@ -14,10 +14,12 @@ To compile the mod go to the main directory and do
 gradlew genSources
 ## Eclipse IDE:
 gradlew genSources
+
 gradlew eclipse
 # Linux/MacOS
 ## Intellij IDEA:
 ./gradlew genSources
 ## Eclipse IDE:
 ./gradlew genSources
+
 ./gradlew eclipse
