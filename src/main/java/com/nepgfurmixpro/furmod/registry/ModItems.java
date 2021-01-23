@@ -5,6 +5,7 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
+import net.minecraft.potion.Potion;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -23,8 +24,8 @@ public class ModItems {
     public static final Item CINNABAR = new Item(new Item.Settings().group(ItemGroup.MISC));
     public static final BlockItem CINNABAR_ORE = new BlockItem(ModBlocks.CINNABAR_ORE, new Item.Settings().group(ItemGroup.MISC));
     public static final Item CINNABAR_DUST = new Item(new Item.Settings().group(ItemGroup.MISC));
-    public static final Item MERCURY = new Item(new Item.Settings().group(ItemGroup.MISC).food(new FoodComponent.Builder().hunger(0).saturationModifier(1f).alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.POISON, 20*12), 1).meat().build()));
-    public static final PotionItem MERCURY_BOTTLE = new PotionItem(new PotionItem.Settings().group(ItemGroup.BREWING).food(new FoodComponent.Builder().hunger(0).saturationModifier(1f).alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.POISON, 20*12), 1).meat().build()));
+    public static final Item MERCURY = new Item(new Item.Settings().group(ItemGroup.MISC).food(new FoodComponent.Builder().hunger(0).saturationModifier(0f).alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.POISON, 20*12), 1).meat().build()));
+    public static final Item MERCURY_BOTTLE = new Item(new Item.Settings().group(Furmod.FURMOD_TAB).food(new FoodComponent.Builder().hunger(0).saturationModifier(0f).alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.POISON, 20*12), 1).meat().build()));
     public static final Item FURMOD_STATS = new Item(new Item.Settings().group(ItemGroup.MISC));
 
 
