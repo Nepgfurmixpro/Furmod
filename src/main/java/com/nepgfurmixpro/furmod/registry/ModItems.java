@@ -20,7 +20,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "white_fur"), WHITE_FUR);
         Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "white_fur_block"), WHITE_FUR_BLOCK);
 
-        Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "white_fur"), LIME_FUR);
-        Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "white_fur_block"), LIME_FUR_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "lime_fur"), LIME_FUR);
+        Registry.register(Registry.ITEM, new Identifier(Furmod.MOD_ID, "lime_fur_block"), LIME_FUR_BLOCK);
     }
 }

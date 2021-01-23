@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "furmod:lime_fur"
+    }
+  },
+  "result": {
+    "item": "furmod:lime_fur_block",
+    "count": 1
+  }
+}
