@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "furmod:warm_pack"
+  },
+  "result": "furmod:heat_pack",
+  "experience": 0,
+  "cookingtime": 200
+}

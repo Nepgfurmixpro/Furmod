@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "furmod:warm_pack"
+    }
+  ],
+  "result": {
+    "item": "furmod:cold_pack",
+    "count": 1
+  }
+}

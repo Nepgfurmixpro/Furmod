@@ -3,5 +3,8 @@
   "block.furmod.white_fur_block": "White Fur Block",
   "item.furmod.lime_fur": "Lime Fur",
   "block.furmod.lime_fur_block": "Lime Fur Block",
+  "item.furmod.heat_pack": "Heat Pack",
+  "item.furmod.warm_pack": "Warm Pack",
+  "item.furmod.cold_pack": "Cold Pack",
   "itemGroup.furmod.furmod_tab": "Furmod"
 }

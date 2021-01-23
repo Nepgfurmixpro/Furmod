@@ -18,7 +18,10 @@ public class Furmod implements ModInitializer {
 				stacks.add(new ItemStack(ModItems.LIME_FUR));
 				stacks.add(new ItemStack(ModItems.WHITE_FUR_BLOCK));
 				stacks.add(new ItemStack(ModItems.LIME_FUR_BLOCK));
-	}).build();
+				stacks.add(new ItemStack(ModItems.COLD_PACK));
+				stacks.add(new ItemStack(ModItems.WARM_PACK));
+				stacks.add(new ItemStack(ModItems.HEAT_PACK));
+			}).build();
 
 	@Override
 	public void onInitialize() {
