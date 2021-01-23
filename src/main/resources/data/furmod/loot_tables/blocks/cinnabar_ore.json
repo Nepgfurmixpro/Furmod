@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "furmod:cinnabar_ore"
+          "name": "furmod:cinnabar"
         }
       ],
       "conditions": [
