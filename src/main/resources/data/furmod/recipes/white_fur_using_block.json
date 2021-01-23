@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "furmod:white_fur_block"
+    }
+  ],
+  "result": {
+    "item": "furmod:white_fur",
+    "count": 4
+  }
+}

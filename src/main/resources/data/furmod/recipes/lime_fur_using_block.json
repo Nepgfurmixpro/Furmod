@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "furmod:lime_fur_block"
+    }
+  ],
+  "result": {
+    "item": "furmod:lime_fur",
+    "count": 4
+  }
+}
