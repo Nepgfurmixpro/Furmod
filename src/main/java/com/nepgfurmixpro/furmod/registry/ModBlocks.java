@@ -15,18 +15,20 @@ public class ModBlocks {
     public static final Block WHITE_FUR_BLOCK = new Block(FabricBlockSettings
             .of(Material.WOOL)
             .breakByTool(FabricToolTags.SHEARS)
+            .breakByHand(true)
             .sounds(BlockSoundGroup.WOOL)
             .strength(0.8f,	0.8f));
 
     public static final Block LIME_FUR_BLOCK = new Block(FabricBlockSettings
             .of(Material.WOOL)
             .breakByTool(FabricToolTags.SHEARS)
+            .breakByHand(true)
             .sounds(BlockSoundGroup.WOOL)
             .strength(0.8f,	0.8f));
 
     public static final Block CINNABAR_ORE = new Block(FabricBlockSettings
             .of(Material.STONE)
-            .breakByTool(FabricToolTags.SHEARS)
+            .breakByTool(FabricToolTags.PICKAXES, 2)
             .sounds(BlockSoundGroup.STONE)
             .strength(1.2f, 1.2f));
 
