@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "furmod:cinnabar"
+    "item": "furmod:cinnabar_dust"
   },
   "result": "furmod:mercury",
   "experience": 0,
-  "cookingtime": 450
+  "cookingtime": 200
 }
