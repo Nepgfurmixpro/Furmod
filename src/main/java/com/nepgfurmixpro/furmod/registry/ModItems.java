@@ -5,10 +5,6 @@ import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-
 public class ModItems {
 
     public static final Item WHITE_FUR = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
