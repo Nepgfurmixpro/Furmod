@@ -9,6 +9,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
+// Developers:
+//   Nepgfurimxpro
+//
+// Project Started by: Nepgfurimxpro
+//
+// Furmod. The mod that adds a decent amount of realism to hot and cold biomes.
+
 public class Furmod implements ModInitializer {
 
 	public static final String MOD_ID = "furmod";
