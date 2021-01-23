@@ -25,7 +25,11 @@ public class ModBlocks {
             .strength(0.8f,	0.8f));
 
     public static void registerBlocks() {
+        System.out.println("Registering blocks");
+
         Registry.register(Registry.BLOCK, new Identifier(Furmod.MOD_ID, "white_fur_block"), WHITE_FUR_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Furmod.MOD_ID, "lime_fur_block"), LIME_FUR_BLOCK);
+
+        System.out.println("Registered blocks");
     }
 }

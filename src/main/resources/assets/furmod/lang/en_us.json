@@ -6,5 +6,10 @@
   "item.furmod.heat_pack": "Heat Pack",
   "item.furmod.warm_pack": "Warm Pack",
   "item.furmod.cold_pack": "Cold Pack",
+  "item.furmod.cinnabar": "Cinnabar",
+  "block.furmod.cinnabar_ore": "Cinnabar Ore",
+  "item.furmod.mercury": "Mercury",
+  "item.furmod.mercury_bottle": "Mercury Bottle",
+  "item.furmod.furmod_stats": "Furmod Stats",
   "itemGroup.furmod.furmod_tab": "Furmod"
 }

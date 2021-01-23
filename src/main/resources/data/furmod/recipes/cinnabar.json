@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "furmod:cinnabar_ore"
+  },
+  "result": "furmod:cinnabar_ore",
+  "count": 2
+}

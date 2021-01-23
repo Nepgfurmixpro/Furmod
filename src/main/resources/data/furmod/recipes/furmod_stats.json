@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    " I ",
+    "IMI"
+  ],
+  "keys": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "furmod:mercury_bottle"
+    }
+  },
+  "result": {
+    "item": "furmod:furmod_stats",
+    "count": 1
+  }
+}
