@@ -10,7 +10,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 // Developers:
-//   Nepgfurimxpro
+//   Nepgfurmixpro
+//	 AnonymousVoid
 //
 // Project Started by: Nepgfurmixpro
 //
